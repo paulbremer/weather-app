@@ -17,8 +17,10 @@
     background-color: #4b9ec1;
 }
 
-.city-name {
-    width: 120px;
+@media screen and (min-width: 600px) {
+    .city-name {
+        width: 120px;
+    }
 }
 
 .current-temp,
